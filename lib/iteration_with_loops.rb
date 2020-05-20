@@ -8,7 +8,7 @@ def join_nested_strings(src)
     j = 0
     while j < sub_arr.count do
       ele = sub_arr[j]
-      if ele.
+      if ele.is_a?
     i += 1
     end
   i += 1  
