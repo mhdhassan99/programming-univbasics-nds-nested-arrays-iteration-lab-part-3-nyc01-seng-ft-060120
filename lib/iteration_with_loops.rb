@@ -4,9 +4,11 @@ def join_nested_strings(src)
   val = ""
   i = 0
   while i < src.count do 
+    sub_arr = src[i]
     j = 0
-    while j < src[i].count do
-      ele = 
+    while j < sub_arr.count do
+      ele = sub_arr[j]
+      if ele.
     i += 1
     end
   i += 1  
