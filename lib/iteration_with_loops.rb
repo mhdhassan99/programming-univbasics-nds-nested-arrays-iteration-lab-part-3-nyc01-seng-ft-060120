@@ -17,5 +17,5 @@ def join_nested_strings(src)
     
   i += 1  
   end
-  
+  val
 end
