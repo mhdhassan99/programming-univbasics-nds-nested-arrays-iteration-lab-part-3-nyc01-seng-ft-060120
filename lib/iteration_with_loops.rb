@@ -8,7 +8,7 @@ def join_nested_strings(src)
     j = 0
     while j < src[i].count do
       
-      if src[i][j].is_a String
+      if src[i][j].is_a? String
         val += ele
       end
       
