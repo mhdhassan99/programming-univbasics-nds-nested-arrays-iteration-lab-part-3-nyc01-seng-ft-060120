@@ -7,4 +7,5 @@ def join_nested_strings(src)
     new_arr = src[i].join(" ")
   i += 1  
   end
+  new_arr
 end
