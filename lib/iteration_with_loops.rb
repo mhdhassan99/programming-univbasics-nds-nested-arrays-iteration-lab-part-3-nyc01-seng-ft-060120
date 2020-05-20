@@ -4,15 +4,18 @@ def join_nested_strings(src)
   val = ""
   i = 0
   while i < src.count do 
-    sub_arr = src[i]
+    
     j = 0
-    while j < sub_arr.count do
-      ele = sub_arr[j]
-      if ele.is_a? String
+    while j < src[i].count do
+      
+      if src[i][j].is_a String
         val += ele
       end
+      
     i += 1
     end
+    
   i += 1  
   end
+  
 end
